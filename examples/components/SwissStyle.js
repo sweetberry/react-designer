@@ -50,7 +50,7 @@ export default class extends Component {
       "type": "polygon",
       "x": 20,
       "y": 126,
-      "blendMode": "multiply"
+      "blendmode": "multiply"
     }, {
       "fill": "rgba(74, 255, 231, 1)",
       "closed": true,
@@ -98,7 +98,7 @@ export default class extends Component {
       "type": "polygon",
       "x": 33,
       "y": 117,
-      "blendMode": "darken"
+      "blendmode": "darken"
     }, {
       "text": "love",
       "rotate": 0,
@@ -111,7 +111,7 @@ export default class extends Component {
       "type": "text",
       "x": 117,
       "y": 220,
-      "blendMode": "normal"
+      "blendmode": "normal"
     }, {
       "text": "not",
       "rotate": 0,
@@ -124,7 +124,7 @@ export default class extends Component {
       "type": "text",
       "x": 79,
       "y": 281,
-      "blendMode": "normal"
+      "blendmode": "normal"
     }, {
       "text": "war",
       "rotate": 0,
@@ -137,7 +137,7 @@ export default class extends Component {
       "type": "text",
       "x": 117,
       "y": 334,
-      "blendMode": "normal"
+      "blendmode": "normal"
     }, {
       "text": "make",
       "rotate": 0,
@@ -150,7 +150,7 @@ export default class extends Component {
       "type": "text",
       "x": 87,
       "y": 159,
-      "blendMode": "normal"
+      "blendmode": "normal"
     }, {
       "fill": "rgba(255, 236, 54, 1)",
       "closed": true,
@@ -205,7 +205,7 @@ export default class extends Component {
       "type": "polygon",
       "x": 11,
       "y": 15,
-      "blendMode": "multiply"
+      "blendmode": "multiply"
     }, {
       "text": "love",
       "rotate": 0,
@@ -218,7 +218,7 @@ export default class extends Component {
       "type": "text",
       "x": 115,
       "y": 221,
-      "blendMode": "multiply"
+      "blendmode": "multiply"
     }, {
       "text": "war",
       "rotate": 0,
@@ -231,7 +231,7 @@ export default class extends Component {
       "type": "text",
       "x": 125,
       "y": 333,
-      "blendMode": "difference"
+      "blendmode": "difference"
     }]
   };
 

@@ -15,7 +15,7 @@ export default class Circle extends Vector {
       fill       : "transparent",
       stroke     : "red",
       strokeWidth: 10,
-      blendMode  : "normal"
+      blendmode  : "normal"
     }
   };
 

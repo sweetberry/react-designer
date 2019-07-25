@@ -8,7 +8,7 @@ export default class extends Component {
       "rotate": 0,
       "fill": "rgba(236, 181, 114, 1)",
       "strokeWidth": 0,
-      "blendMode": "normal",
+      "blendmode": "normal",
       "type": "circle",
       "x": 116,
       "y": 34.5625,

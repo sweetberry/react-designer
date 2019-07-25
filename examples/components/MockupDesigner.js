@@ -170,7 +170,7 @@ export default class extends Component {
       "fill": "#e3e3e3",
       "stroke": "gray",
       "radius": 0,
-      "blendMode": "normal",
+      "blendmode": "normal",
       "text": "Login",
       "type": "fieldset",
       "fontFamily": "Open Sans",

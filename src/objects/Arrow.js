@@ -14,7 +14,7 @@ export default class Arrow extends Vector {
       stroke     : "red",
       strokeWidth: 1,
       fill       : "red",
-      blendMode  : "normal",
+      blendmode  : "normal",
       rotate     : 0
     }
   };
