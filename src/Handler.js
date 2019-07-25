@@ -50,15 +50,14 @@ class Handler extends Component {
   render() {
     let {props} = this;
     let {boundingBox} = props;
-
     let handlerStyle = {
       ...styles.handler,
       ...boundingBox,
-      width: boundingBox.width + 10,
-      height: boundingBox.height + 10,
-      left: boundingBox.left - 5,
-      top: boundingBox.top - 5,
-      transform: `rotate(${boundingBox.rotate}deg)`
+      width: Number(boundingBox.width) + 10,
+      height: Number(boundingBox.height) + 10,
+      left: Number(boundingBox.left) - 5,
+      top: Number(boundingBox.top) - 5,
+      transform: `rotate(${Number(boundingBox.rotate)}deg)`
     };
 
     return (
