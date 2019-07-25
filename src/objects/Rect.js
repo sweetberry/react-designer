@@ -7,26 +7,27 @@ import Vector from './Vector';
 
 export default class Rect extends Vector {
   static meta = {
-    icon: <Icon icon={'rectangle'} size={30} />,
+    icon   : <Icon icon={'rectangle'} size={30}/>,
     initial: {
-      width: 5,
-      height: 5,
-      strokeWidth: 0,
-      fill: "blue",
-      radius: 0,
-      blendMode: "normal",
-      rotate: 0
+      width      : 50,
+      height     : 50,
+      fill       : "transparent",
+      stroke     : "red",
+      strokeWidth: 10,
+      radius     : 10,
+      blendMode  : "normal",
+      rotate     : 0
     }
   };
 
-  render() {
+  render () {
     let {object, index} = this.props;
     return (
-      <rect style={this.getStyle()}
-         {...this.getObjectAttributes()}
-         rx={object.radius}
-         width={object.width}
-         height={object.height} />
+        <rect style={this.getStyle()}
+              {...this.getObjectAttributes()}
+              rx={object.radius}
+              width={object.width}
+              height={object.height}/>
     );
   }
 }

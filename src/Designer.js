@@ -9,17 +9,18 @@ import SVGRenderer from './SVGRenderer';
 import Handler from './Handler';
 import {modes} from './constants';
 import * as actions from './actions';
-import {Text, Path, Rect, Circle, Image} from './objects';
+import {Text, Path, Rect, Circle, Image,Arrow} from './objects';
 import PanelList from './panels/PanelList';
 
 class Designer extends Component {
   static defaultProps = {
     objectTypes: {
       'text': Text,
-      'rectangle': Rect,
+      'arrow':Arrow,
       'circle': Circle,
+      'rectangle': Rect,
       'polygon': Path,
-      'image': Image
+      'image': Image,
     },
     snapToGrid: 1,
     svgStyle: {},
@@ -381,7 +382,7 @@ class Designer extends Component {
 
     return (
       <SVGRenderer
-         background={background}
+          background={background}
          width={width}
          canvas={canvas}
          height={height}
