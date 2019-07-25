@@ -9,7 +9,7 @@ const PropertyGroup = ({showIf=true, ...props}) => {
     return <div style={styles.empty} />;
   }
   return (
-    <div style={styles.propertyGroup}>
+    <div className="react-designer-PropertyGroup" style={styles.propertyGroup}>
       {props.children}
     </div>
   );

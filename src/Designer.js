@@ -539,13 +539,15 @@ class Designer extends Component {
 
           {/* Left Panel: Displays insertion tools (shapes, images, etc.) */}
           {InsertMenuComponent && (
-            <InsertMenuComponent tools={objectTypes}
+            <InsertMenuComponent className="react-designer-InsertMenuComponent"
+                                 tools={objectTypes}
               currentTool={selectedTool}
               onSelect={this.selectTool.bind(this)} />
           )}
 
           {/* Center Panel: Displays the preview */}
-          <div style={styles.canvasContainer}>
+          <div className="react-designer-Preview"
+               style={styles.canvasContainer}>
             {isEditMode && ObjectEditor && (
                <ObjectEditor object={currentObject}
                    offset={this.getOffset()}

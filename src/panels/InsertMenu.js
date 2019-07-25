@@ -6,7 +6,7 @@ import Icon from '../Icon';
 class InsertMenu extends Component {
 
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       menuOpened: false,
       hoveredTool: null
@@ -37,7 +37,9 @@ class InsertMenu extends Component {
     let keys = Object.keys(tools);
 
     return (
-      <div style={{
+      <div
+          className="react-designer-InsertMenu"
+          style={{
           ...styles.insertMenu,
           ...menuOpened ? styles.insertMenuHover : {}
         }}

@@ -10,7 +10,7 @@ const Column = ( {showIf = true, ...props} ) => {
   }
 
   return (
-      <div style={{...styles.column, ...props.style}}>
+      <div className="react-designer-Column" style={{...styles.column, ...props.style}}>
         {props.children ||
         <CustomInput style={{...styles.input, ...styles.integerInput}} value={props.value}
                      onChange={props.onChange}/>

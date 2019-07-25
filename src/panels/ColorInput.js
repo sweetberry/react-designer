@@ -41,7 +41,7 @@ class ColorInput extends Component {
     let {value} = this.props;
 
     return (
-      <div>
+      <div className="react-designer-ColorInput">
         <a href="#"
          style={styles.colorInput}
          onClick={this.toggleVisibility.bind(this)}>

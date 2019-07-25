@@ -10,7 +10,7 @@ const Button = ({onClick, ...props}) => {
     onClick(...args);
   }
   return (
-    <a href="#" style={styles.button} onClick={_onClick}>
+    <a href="#" className="react-designer-Button" style={styles.button} onClick={_onClick}>
       {props.children}
     </a>
   );
