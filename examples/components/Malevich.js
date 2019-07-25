@@ -15,10 +15,10 @@ export default class extends Component {
       "height": null
     }, {
       "fill": "rgba(220, 134, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 47,
-      "moveY": 65.5625,
+      "movex": 47,
+      "movey": 65.5625,
       "path": [{"x1": 47, "y1": 65.5625, "x2": 57, "y2": 61.5625, "x": 57, "y": 61.5625}, {
         "x1": 57,
         "y1": 61.5625,
@@ -41,10 +41,10 @@ export default class extends Component {
       "y": 65.5625
     }, {
       "fill": "rgba(160, 41, 1, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 22,
-      "moveY": 259.5625,
+      "movex": 22,
+      "movey": 259.5625,
       "path": [{"x1": 22, "y1": 259.5625, "x2": 53, "y2": 244.5625, "x": 53, "y": 244.5625}, {
         "x1": 53,
         "y1": 244.5625,
@@ -67,10 +67,10 @@ export default class extends Component {
       "y": 259.5625
     }, {
       "fill": "rgba(135, 103, 82, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 47,
-      "moveY": 212.5625,
+      "movex": 47,
+      "movey": 212.5625,
       "path": [{"x1": 47, "y1": 212.5625, "x2": 69, "y2": 200.5625, "x": 69, "y": 200.5625}, {
         "x1": 69,
         "y1": 200.5625,
@@ -93,10 +93,10 @@ export default class extends Component {
       "y": 212.5625
     }, {
       "fill": "rgba(220, 134, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 71,
-      "moveY": 183.5625,
+      "movex": 71,
+      "movey": 183.5625,
       "path": [{"x1": 71, "y1": 183.5625, "x2": 80, "y2": 178.5625, "x": 80, "y": 178.5625}, {
         "x1": 80,
         "y1": 178.5625,
@@ -119,10 +119,10 @@ export default class extends Component {
       "y": 183.5625
     }, {
       "fill": "rgba(111, 134, 124, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 77,
-      "moveY": 314.5625,
+      "movex": 77,
+      "movey": 314.5625,
       "path": [{"x1": 77, "y1": 314.5625, "x2": 181, "y2": 256.5625, "x": 181, "y": 256.5625}, {
         "x1": 181,
         "y1": 256.5625,
@@ -145,10 +145,10 @@ export default class extends Component {
       "y": 314.5625
     }, {
       "fill": "rgba(111, 134, 124, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 178,
-      "moveY": 385.5625,
+      "movex": 178,
+      "movey": 385.5625,
       "path": [{"x1": 178, "y1": 385.5625, "x2": 197, "y2": 377.5625, "x": 197, "y": 377.5625}, {
         "x1": 197,
         "y1": 377.5625,
@@ -171,10 +171,10 @@ export default class extends Component {
       "y": 381.5625
     }, {
       "fill": "rgba(163, 172, 127, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 96,
-      "moveY": 6.5625,
+      "movex": 96,
+      "movey": 6.5625,
       "path": [{"x1": 96, "y1": 6.5625, "x2": 96, "y2": 70.5625, "x": 96, "y": 70.5625}, {
         "x1": 96,
         "y1": 70.5625,
@@ -197,10 +197,10 @@ export default class extends Component {
       "y": 6.5625
     }, {
       "fill": "rgba(163, 172, 127, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 70,
-      "moveY": 39.5625,
+      "movex": 70,
+      "movey": 39.5625,
       "path": [{"x1": 70, "y1": 39.5625, "x2": 124, "y2": 32.5625, "x": 124, "y": 32.5625}, {
         "x1": 124,
         "y1": 32.5625,
@@ -223,10 +223,10 @@ export default class extends Component {
       "y": 39.5625
     }, {
       "fill": "rgba(69, 69, 41, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 87,
-      "moveY": 53.5625,
+      "movex": 87,
+      "movey": 53.5625,
       "path": [{"x1": 87, "y1": 53.5625, "x2": 116, "y2": 49.5625, "x": 116, "y": 49.5625}, {
         "x1": 116,
         "y1": 49.5625,
@@ -249,10 +249,10 @@ export default class extends Component {
       "y": 51.5625
     }, {
       "fill": "rgba(206, 67, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 123,
-      "moveY": 168.5625,
+      "movex": 123,
+      "movey": 168.5625,
       "path": [{"x1": 123, "y1": 168.5625, "x2": 349, "y2": 36.5625, "x": 349, "y": 36.5625}, {
         "x1": 349,
         "y1": 36.5625,
@@ -275,10 +275,10 @@ export default class extends Component {
       "y": 168.5625
     }, {
       "fill": "rgba(0, 0, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 135,
-      "moveY": 120.5625,
+      "movex": 135,
+      "movey": 120.5625,
       "path": [{"x1": 135, "y1": 120.5625, "x2": 154, "y2": 112.5625, "x": 154, "y": 112.5625}, {
         "x1": 154,
         "y1": 112.5625,
@@ -301,10 +301,10 @@ export default class extends Component {
       "y": 120.5625
     }, {
       "fill": "rgba(133, 34, 8, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 337,
-      "moveY": 78.5625,
+      "movex": 337,
+      "movey": 78.5625,
       "path": [{"x1": 337, "y1": 78.5625, "x2": 346, "y2": 92.5625, "x": 346, "y": 92.5625}, {
         "x1": 346,
         "y1": 92.5625,
@@ -327,10 +327,10 @@ export default class extends Component {
       "y": 78.5625
     }, {
       "fill": "rgba(0, 0, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 138,
-      "moveY": 51.5625,
+      "movex": 138,
+      "movey": 51.5625,
       "path": [{"x1": 138, "y1": 51.5625, "x2": 152, "y2": 45.5625, "x": 152, "y": 45.5625}, {
         "x1": 152,
         "y1": 45.5625,
@@ -353,10 +353,10 @@ export default class extends Component {
       "y": 51.5625
     }, {
       "fill": "rgba(0, 0, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 8,
-      "moveY": 292.5625,
+      "movex": 8,
+      "movey": 292.5625,
       "path": [{"x1": 8, "y1": 292.5625, "x2": 15, "y2": 303.5625, "x": 15, "y": 303.5625}, {
         "x1": 15,
         "y1": 303.5625,
@@ -379,10 +379,10 @@ export default class extends Component {
       "y": 292.5625
     }, {
       "fill": "rgba(0, 0, 0, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 314,
-      "moveY": 6.5625,
+      "movex": 314,
+      "movey": 6.5625,
       "path": [{"x1": 266, "y1": 49.5625, "x2": 224, "y2": 49.5625, "x": 204, "y": 69.5625}, {
         "x1": 169,
         "y1": 99.5625,

@@ -10,10 +10,10 @@ export default class Path extends Vector {
   static meta = {
     initial: {
       fill       : "#e3e3e3",
-      closed     : false,
+      closed     : 'false',
       rotate     : 0,
-      moveX      : 0,
-      moveY      : 0,
+      movex      : 0,
+      movey      : 0,
       path       : [],
       stroke     : "red",
       strokeWidth: 5
@@ -30,11 +30,11 @@ export default class Path extends Vector {
       return (!_.isUndefined( x2 ) && !_.isUndefined( y2 )) ? (`C ${x1} ${y1}, ${x2} ${y2}, ${x} ${y}`) : null
     } );
     let instructions = [
-      `M ${object.moveX} ${object.moveY}`,
+      `M ${object.movex} ${object.movey}`,
       ...curves
     ];
 
-    if (object.closed) {
+    if (object.closed !== 'false') {
       instructions = [
         ...instructions, 'Z'
       ];
@@ -43,16 +43,16 @@ export default class Path extends Vector {
     return instructions.join( '\n' );
   }
 
-  getTransformMatrix ( {rotate, x, y, moveX, moveY} ) {
+  getTransformMatrix ( {rotate, x, y, movex, movey} ) {
     return `
-      translate(${x - moveX} ${y - moveY})
+      translate(${x - movex} ${y - movey})
       rotate(${rotate} ${x} ${y})
     `;
   }
 
   render () {
     let {object} = this.props;
-    let fill = (object.closed ? object.fill
+    let fill = (object.closed !== 'false' ? object.fill
         : "transparent");
     return (
         <path style={this.getStyle( object )}

@@ -158,8 +158,8 @@ class Designer extends Component {
 
   updatePath(object) {
     let {path} = object;
-    let diffX = object.x - object.moveX;
-    let diffY = object.y - object.moveY;
+    let diffX = object.x - object.movex;
+    let diffY = object.y - object.movey;
 
     let newPath = path.map(({x1, y1, x2, y2, x, y}) => ({
       x1: diffX + x1,
@@ -173,8 +173,8 @@ class Designer extends Component {
     return {
       ...object,
       path: newPath,
-      moveX: object.x,
-      moveY: object.y
+      movex: object.x,
+      movey: object.y
     };
   }
 

@@ -5,10 +5,10 @@ export default class extends Component {
   state = {
     objects: [{
       "fill": "rgba(255, 57, 57, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 20,
-      "moveY": 126,
+      "movex": 20,
+      "movey": 126,
       "path": [{"x1": 20, "y1": 126, "x2": 145, "y2": 123.84375, "x": 145, "y": 123.84375}, {
         "x1": 145,
         "y1": 123.84375,
@@ -53,10 +53,10 @@ export default class extends Component {
       "blendmode": "multiply"
     }, {
       "fill": "rgba(74, 255, 231, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 21,
-      "moveY": 126,
+      "movex": 21,
+      "movey": 126,
       "path": [{"x1": 21, "y1": 126, "x2": 144, "y2": 125.84375, "x": 144, "y": 125.84375}, {
         "x1": 144,
         "y1": 125.84375,
@@ -153,10 +153,10 @@ export default class extends Component {
       "blendmode": "normal"
     }, {
       "fill": "rgba(255, 236, 54, 1)",
-      "closed": true,
+      "closed": 'true',
       "rotate": 0,
-      "moveX": 22,
-      "moveY": 13,
+      "movex": 22,
+      "movey": 13,
       "path": [{"x1": 22, "y1": 13, "x2": 24, "y2": 99.84375, "x": 24, "y": 99.84375}, {
         "x1": 24,
         "y1": 99.84375,
