@@ -25,10 +25,10 @@ export default class CustomInput extends React.Component {
     onChange : () => {},
   };
 
-  // noinspection JSUnusedGlobalSymbols
-  componentWillReceiveProps = ( nextProps ) => {
-    this.setState( {value: nextProps.value} );
-  };
+  // noinspection JSUnusedLocalSymbols
+  static getDerivedStateFromProps ( nextProps, prevState ) {
+    return {value: nextProps.value}
+  }
 
   componentDidUpdate () {
     const {selectionStartToRight, keepCursorPosition} = this.state;
@@ -43,7 +43,7 @@ export default class CustomInput extends React.Component {
     const {className, style, onChange} = this.props;
     const {value} = this.state;
     return (
-        <input className={className} style={style} value={value} ref={this.inputRef}
+        <input className={className + " react-designer-CustomInput"} style={style} value={value} ref={this.inputRef}
                onChange={this.onChange}
                onKeyDown={( e ) => this.onKeyDown( e, onChange )}
         />
